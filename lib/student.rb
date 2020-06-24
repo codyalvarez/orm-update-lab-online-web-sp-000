@@ -47,7 +47,7 @@ class Student
     DB[:conn].execute(sql, self.name, self.grade, self.name)
   end
 
-  
+
 
 
   # Remember, you can access your database connection anywhere in this class
