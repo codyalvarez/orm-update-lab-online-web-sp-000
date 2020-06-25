@@ -51,6 +51,7 @@ class Student
   end
 
   def self.find_by_name
+  end
 
   def update
     sql = "UPDATE students SET name = ?, grade = ? WHERE id = ?"
